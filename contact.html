@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+    <html lang="nl">
+        <head>
+            <meta charset="utf-8">
+            <meta name="author" content="Daan van Gorp">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="keywords" content="HTML, CV, Daan van Gorp">
+            <meta name="description" content="Back End Dev, Huiswerk">
+            <title> Mijn CV </title>
+            <link   rel="stylesheet"
+                    type="text/css"
+                    href="stylesheet.css">
+        </head>
+        <body>
+            <article id="ArticleHeader">
+                <header id="Header">
+                    <h1 id="H1"> Daan van Gorp </h1>
+                    <ul id="Menu">
+                        <li id="WieBenIk"><a href="index.html"> Wie ben ik? </a></li>          
+                        <li id="MijnCV"><a href="mijncv.html"> Mijn CV </a></li>              
+                        <li id="Contact"><a href="contact.html"> Contact </a></li>              
+                    </ul>
+                </header>
+            </article>
+            <h3>Contact</h3>
+            <br>
+            <p> Denkt u nu: Wauw, dit is de perfecte kandidaat? Vul dan het onderstaande formulier in en dan neem ik spoedig contact met u op.</p>
+                <form action="https://formspree.io/f/xbljbvqq" method="post" id="ContactFormulier">
+                <fieldset id="PersoonlijkeGegevens">
+                    <legend>Persoonlijke gegevens</legend>
+                        <label for="Naam"> Naam: </label>
+                            <input id="Naam" type="text" name="Naam" placeholder="Vul hier uw voornaam in">
+                        <br>
+                        <label for="Achternaam">Achternaam: </label>
+                            <input id="Achternaam" type="text" name="Achternaam" placeholder="Vul hier uw achternaam in">
+                        <br>
+                        <label for="telefoonnummer"> Telefoon: </label>
+                            <input id="telefoonnummer" type="text" name="telefoon" placeholder="Vul hier uw telefoon nummer in">
+                        <br>
+                        <label for="email"> E-mail: </label>
+                            <input id="email" type="text" name="email" placeholder="Vul hier uw e-mailadres in">
+                </fieldset>
+                <br>
+                <fieldset id="Bericht">
+                    <legend>Bericht:</legend>
+                        <textarea   name="Typ Hier uw bericht" maxlength="1500" placeholder="Typ hier uw bericht"></textarea>
+                </fieldset>
+                <br>
+                
+                    <input  type="submit" value="Verzend" id="Verzendknop" formtarget="_blank">
+                
+            </form>
+            <footer id="Footer"> Copyright &copy; Daan van Gorp 2024 </footer>
+        </body>
+    </html>

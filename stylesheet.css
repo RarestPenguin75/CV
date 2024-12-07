@@ -1,0 +1,172 @@
+body{
+    background-color: darkseagreen;
+}
+#ArticleHeader{
+  background-color: #CDC4AA;
+  width: 100%;
+  height: 74px;
+  border-radius: 10px;
+}
+#Header{
+        background-color: #CDC4AA;
+        opacity: 0.75;
+        font-family: 'Times New Roman';
+        width: 100%;
+        height: 18px;
+        border-radius: 18px;
+}
+#H1{
+    text-align: center;
+    background-color: #CDC4AA;
+    color: black;
+    font-size: 14px;
+}
+#Menu{
+  list-style-type: none;
+  margin: inherit;
+  padding: 0;
+  width: 100%;
+  color: black;
+  overflow: hidden;
+  background-color: #CDC4AA;
+}
+#WieBenIk{
+    float: left;
+    background-color: #CDC4AA;
+    overflow: hidden;
+    margin: inherit;
+    padding: 0;
+    border-radius: 10px;
+}
+#WieBenIk a{
+    display: block;
+    padding: 8px;
+}
+#WieBenIk a:hover{
+    background-color: darkseagreen;
+}
+#MijnCV{
+    float: left;
+    background-color: #CDC4AA;
+    overflow: hidden;
+    margin: inherit;
+    padding: 0;
+    border-radius: 10px;
+}
+#MijnCV a{
+    display: block;
+    padding: 8px;
+}
+#MijnCV a:hover{
+    background-color: darkseagreen;
+}
+#Contact{
+    float: left;
+    background-color: #CDC4AA;
+    overflow: hidden;
+    margin: inherit;
+    padding: 0px;
+    border-radius: 10px;
+}
+#Contact a{
+    display: block;
+    padding: 8px;
+}
+#Contact a:hover{
+    background-color: darkseagreen;
+}
+
+#Footer{
+    background-color: #CDC4AA;
+    padding: 0;
+    text-align: center;
+    color: black;
+}
+th, td{
+  text-align: center;
+  width: 100%;
+  border: 1px solid #CDC4AA;
+}
+#Taalvaardigheden{
+    list-style-type: none;
+
+}
+#Verzendknop{
+    background-color: #CDC4AA;
+    border-radius: 10px;
+}
+#Verzendknop:active{
+    background-color: darkseagreen;
+}
+#PersoonlijkeGegevens{
+    border: 1px solid #CDC4AA;
+    border-radius: 10px;
+    
+}
+#Bericht{
+    border: 1px solid #CDC4AA;
+    border-radius: 10px;
+    
+}
+#CVWerkervaringen{
+    float: left;
+    background-color: #CDC4AA;
+    overflow: hidden;
+    margin: inherit;
+    padding: 0;
+    border-radius: 10px;
+}
+#CVOpleidingen{
+    float: left;
+    background-color: #CDC4AA;
+    overflow: hidden;
+    margin: inherit;
+    padding: 0;
+    border-radius: 10px;
+}
+#CVTaalvaardigheden{
+    float: left;
+    background-color: #CDC4AA;
+    overflow: hidden;
+    margin: inherit;
+    padding: 0;
+    border-radius: 10px;
+}
+#CVCompetenties{
+    float: left;
+    background-color: #CDC4AA;
+    overflow: hidden;
+    margin: inherit;
+    padding: 0;
+    border-radius: 10px;
+}
+#CVWerkervaringen a{
+    display: block;
+    padding: 8px;
+}
+#CVOpleidingen a{
+    display: block;
+    padding: 8px;
+}
+#CVTaalvaardigheden a{
+    display: block;
+    padding: 8px;
+}
+#CVCompetenties a{
+    display: block;
+    padding: 8px;
+}
+#CVMenu {
+    list-style-type: none;
+    margin: inherit;
+    padding: 0;
+    width: 100%;
+    color: black;
+    overflow: hidden;
+    background-color: #CDC4AA;
+    border-radius: 10px;
+    float: left;
+}
+img {
+    border-radius: 10px;
+}
